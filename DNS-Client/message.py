@@ -1,9 +1,7 @@
 """
-GMU - CS 555 - Programming Assignment 1
 Message object encodes and decodes message.
 
-@author: Ying Meng (G#01409388)
-@email: ymeng2@gmu.edu
+@author: YMENG
 """
 import random
 import struct
