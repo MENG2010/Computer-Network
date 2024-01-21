@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 """
-GMU - CS 555 - Programming Assignment 1
 DNS client -- the interface of the DNS client, which handles the interaction with users.
 
-@author: Ying Meng (G#01409388)
-@email: ymeng2@gmu.edu
+@author: MENG
 """
 import argparse
 import socket
