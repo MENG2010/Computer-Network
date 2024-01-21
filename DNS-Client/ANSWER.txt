@@ -1,0 +1,197 @@
+[INFO] Connecting to server 8.8.8.8...
+[INFO] Connected.
+[INFO] Sending DNS query...
+[INFO] Response from 8.8.8.8:
++-----------------------------------------------+
+|                    HEADER                     |
++-----------------------------------------------+
+| Message ID:		39867
+| Query/Response:	RESPONSE
+| Opcode:		QUERY
+| Authoritative:	False
+| Is TranCation:	False
+| Recursive Mode:	True
+| Recursion Available:	True
+| Response Code:	(0, NO ERROR)
+| Question Count:	1
+| Answer Count:		1
+| Authority Count:	0
+| Additional Count:	0
++-----------------------------------------------+
+|                   QUESTION                    |
++-----------------------------------------------+
+| QUESTION[0]:
+|	Name:		gmu.edu
+|	Type:		A
+|	Class:		1
++-----------------------------------------------+
+|                  ANSWER                       |
++-----------------------------------------------+
+| ANSWER[0]:
+|	Name:		gmu.edu
+|	Type:		A
+|	Class:		1
+|	TTL:		3359
+|	RDLength:	4
+|	`A`:		129.174.134.28
++-----------------------------------------------+
+|                  AUTHORITY                    |
++-----------------------------------------------+
++-----------------------------------------------+
+|                 ADDITIONAL                    |
++-----------------------------------------------+
+[INFO] Query `gmu.edu` from `8.8.8.8`.
+[INFO] Received IPs:
+129.174.134.28
+
+__________________________________________________
+[INFO] Connecting to server 8.8.8.8...
+[INFO] Connected.
+[INFO] Sending DNS query...
+[INFO] Response from 8.8.8.8:
++-----------------------------------------------+
+|                    HEADER                     |
++-----------------------------------------------+
+| Message ID:		7110
+| Query/Response:	RESPONSE
+| Opcode:		QUERY
+| Authoritative:	False
+| Is TranCation:	False
+| Recursive Mode:	True
+| Recursion Available:	True
+| Response Code:	(0, NO ERROR)
+| Question Count:	1
+| Answer Count:		6
+| Authority Count:	0
+| Additional Count:	0
++-----------------------------------------------+
+|                   QUESTION                    |
++-----------------------------------------------+
+| QUESTION[0]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
++-----------------------------------------------+
+|                  ANSWER                       |
++-----------------------------------------------+
+| ANSWER[0]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.139
+| ANSWER[1]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.100
+| ANSWER[2]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.138
+| ANSWER[3]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.113
+| ANSWER[4]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.102
+| ANSWER[5]:
+|	Name:		google.com
+|	Type:		A
+|	Class:		1
+|	TTL:		300
+|	RDLength:	4
+|	`A`:		142.251.163.101
++-----------------------------------------------+
+|                  AUTHORITY                    |
++-----------------------------------------------+
++-----------------------------------------------+
+|                 ADDITIONAL                    |
++-----------------------------------------------+
+[INFO] Query `google.com` from `8.8.8.8`.
+[INFO] Received IPs:
+142.251.163.139
+142.251.163.100
+142.251.163.138
+142.251.163.113
+142.251.163.102
+142.251.163.101
+
+__________________________________________________
+[INFO] Connecting to server 8.8.8.8...
+[INFO] Connected.
+[INFO] Sending DNS query...
+[INFO] Response from 8.8.8.8:
++-----------------------------------------------+
+|                    HEADER                     |
++-----------------------------------------------+
+| Message ID:		41307
+| Query/Response:	RESPONSE
+| Opcode:		QUERY
+| Authoritative:	False
+| Is TranCation:	False
+| Recursive Mode:	True
+| Recursion Available:	True
+| Response Code:	(0, NO ERROR)
+| Question Count:	1
+| Answer Count:		3
+| Authority Count:	0
+| Additional Count:	0
++-----------------------------------------------+
+|                   QUESTION                    |
++-----------------------------------------------+
+| QUESTION[0]:
+|	Name:		amazon.com
+|	Type:		A
+|	Class:		1
++-----------------------------------------------+
+|                  ANSWER                       |
++-----------------------------------------------+
+| ANSWER[0]:
+|	Name:		amazon.com
+|	Type:		A
+|	Class:		1
+|	TTL:		291
+|	RDLength:	4
+|	`A`:		205.251.242.103
+| ANSWER[1]:
+|	Name:		amazon.com
+|	Type:		A
+|	Class:		1
+|	TTL:		291
+|	RDLength:	4
+|	`A`:		54.239.28.85
+| ANSWER[2]:
+|	Name:		amazon.com
+|	Type:		A
+|	Class:		1
+|	TTL:		291
+|	RDLength:	4
+|	`A`:		52.94.236.248
++-----------------------------------------------+
+|                  AUTHORITY                    |
++-----------------------------------------------+
++-----------------------------------------------+
+|                 ADDITIONAL                    |
++-----------------------------------------------+
+[INFO] Query `amazon.com` from `8.8.8.8`.
+[INFO] Received IPs:
+205.251.242.103
+54.239.28.85
+52.94.236.248
+
+__________________________________________________
