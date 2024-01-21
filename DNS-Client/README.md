@@ -1,4 +1,4 @@
-# DNS Client for PA1, CS 555.
+# DNS Client.
 
 # Meta
 ## `dns_client.py`
