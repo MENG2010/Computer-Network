@@ -7,11 +7,11 @@ This is the interface of the DNS-Client, interacting with user and server. It ta
 There are two ways to use this client.
 - Type a command like `python dns_client.py <hostname>`. For example,
 
-``$ python dns_client.py gmu.edu``
+``$ python dns_client.py google.com``
 
 - Make the `dns_client.py` executable with command `chmod +x dns_client.py`, then simply run it as a regular shell script. For example,
 
-``$ ./dns_client.py gmu.edu``
+``$ ./dns_client.py google.com``
 
 ## `message.py`
 This script defines everything regarding message, such as formats of each section, encodes request to be sent to the server, and decodes message received from server. User does not use this script directly.
