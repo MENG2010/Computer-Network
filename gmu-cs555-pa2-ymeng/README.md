@@ -1,5 +1,4 @@
-# Distance Vector Routing for PA2, CS 555.
-**Student:** Ying Meng (ymeng2@gmu.edu)
+# Distance Vector Routing.
 
 # Meta
 ## networks
