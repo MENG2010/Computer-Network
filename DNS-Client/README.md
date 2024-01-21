@@ -1,5 +1,4 @@
 # DNS Client for PA1, CS 555.
-**Student:** Ying Meng (ymeng2@gmu.edu)
 
 # Meta
 ## `dns_client.py`
