@@ -1,7 +1,7 @@
 """
 Message object encodes and decodes message.
 
-@author: YMENG
+@author: MENG
 """
 import random
 import struct
