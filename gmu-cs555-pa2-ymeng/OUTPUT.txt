@@ -1,0 +1,214 @@
+[INFO] Loading network topology from networks/network-ring.txt
+-------- Round 0 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 2, 'C': inf, 'D': inf, 'E': 1}
+	 Sending DV to node B
+	 Sending DV to node E
+	 Updated DV = {'A': 0, 'B': 2, 'C': 7, 'D': 2, 'E': 1}
+[Node B]
+	 Current DV = {'A': 2, 'B': 0, 'C': 5, 'D': inf, 'E': inf}
+	 Sending DV to node A
+	 Sending DV to node C
+	 Updated DV = {'A': 2, 'B': 0, 'C': 5, 'D': 4, 'E': 3}
+[Node C]
+	 Current DV = {'A': inf, 'B': 5, 'C': 0, 'D': 4, 'E': inf}
+	 Sending DV to node B
+	 Sending DV to node D
+	 Updated DV = {'A': 7, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+[Node D]
+	 Current DV = {'A': inf, 'B': inf, 'C': 4, 'D': 0, 'E': 1}
+	 Sending DV to node C
+	 Sending DV to node E
+	 Updated DV = {'A': 2, 'B': 9, 'C': 4, 'D': 0, 'E': 1}
+[Node E]
+	 Current DV = {'A': 1, 'B': inf, 'C': inf, 'D': 1, 'E': 0}
+	 Sending DV to node A
+	 Sending DV to node D
+	 Updated DV = {'A': 1, 'B': 3, 'C': 5, 'D': 1, 'E': 0}
+
+-------- Round 1 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 2, 'C': 7, 'D': 2, 'E': 1}
+	 Sending DV to node B
+	 Sending DV to node E
+	 Updated DV = {'A': 0, 'B': 2, 'C': 6, 'D': 2, 'E': 1}
+[Node B]
+	 Current DV = {'A': 2, 'B': 0, 'C': 5, 'D': 4, 'E': 3}
+	 Sending DV to node A
+	 Sending DV to node C
+	 No change in DV at node B
+[Node C]
+	 Current DV = {'A': 7, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+	 Sending DV to node B
+	 Sending DV to node D
+	 Updated DV = {'A': 6, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+[Node D]
+	 Current DV = {'A': 2, 'B': 9, 'C': 4, 'D': 0, 'E': 1}
+	 Sending DV to node C
+	 Sending DV to node E
+	 Updated DV = {'A': 2, 'B': 4, 'C': 4, 'D': 0, 'E': 1}
+[Node E]
+	 Current DV = {'A': 1, 'B': 3, 'C': 5, 'D': 1, 'E': 0}
+	 Sending DV to node A
+	 Sending DV to node D
+	 No change in DV at node E
+
+-------- Round 2 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 2, 'C': 6, 'D': 2, 'E': 1}
+	 Sending DV to node B
+	 Sending DV to node E
+	 No change in DV at node A
+[Node B]
+	 Current DV = {'A': 2, 'B': 0, 'C': 5, 'D': 4, 'E': 3}
+	 Sending DV to node A
+	 Sending DV to node C
+	 No change in DV at node B
+[Node C]
+	 Current DV = {'A': 6, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+	 Sending DV to node B
+	 Sending DV to node D
+	 No change in DV at node C
+[Node D]
+	 Current DV = {'A': 2, 'B': 4, 'C': 4, 'D': 0, 'E': 1}
+	 Sending DV to node C
+	 Sending DV to node E
+	 No change in DV at node D
+[Node E]
+	 Current DV = {'A': 1, 'B': 3, 'C': 5, 'D': 1, 'E': 0}
+	 Sending DV to node A
+	 Sending DV to node D
+	 No change in DV at node E
+
+-------- Round 3 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 2, 'C': 6, 'D': 2, 'E': 1}
+	 Sending DV to node B
+	 Sending DV to node E
+	 No change in DV at node A
+[Node B]
+	 Current DV = {'A': 2, 'B': 0, 'C': 5, 'D': 4, 'E': 3}
+	 Sending DV to node C
+	 No change in DV at node B
+[Node C]
+	 Current DV = {'A': 6, 'B': 5, 'C': 0, 'D': 4, 'E': 5}
+	 No change in DV at node C
+[Node D]
+	 Current DV = {'A': 2, 'B': 4, 'C': 4, 'D': 0, 'E': 1}
+	 No change in DV at node D
+[Node E]
+	 Current DV = {'A': 1, 'B': 3, 'C': 5, 'D': 1, 'E': 0}
+	 No change in DV at node E
+
+Routing algorithm converged.
+Number of rounds till convergens = 4
+
+Final output:
+Node A DV = [('A', 0), ('B', 2), ('C', 6), ('D', 2), ('E', 1)]
+Node B DV = [('A', 2), ('B', 0), ('C', 5), ('D', 4), ('E', 3)]
+Node C DV = [('A', 6), ('B', 5), ('C', 0), ('D', 4), ('E', 5)]
+Node D DV = [('A', 2), ('B', 4), ('C', 4), ('D', 0), ('E', 1)]
+Node E DV = [('A', 1), ('B', 3), ('C', 5), ('D', 1), ('E', 0)]
+
+Final Distance Vector Table
+	A	B	C	D	E
+----------------------------------------
+A	0	2	6	2	1
+B	2	0	5	4	3
+C	6	5	0	4	5
+D	2	4	4	0	1
+E	1	3	5	1	0
+----------------------------------------
+
+[INFO] Loading network topology from networks/network-star.txt
+-------- Round 0 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 10, 'C': 10, 'D': 10, 'E': 10}
+	 Sending DV to node B
+	 Sending DV to node C
+	 Sending DV to node D
+	 Sending DV to node E
+	 No change in DV at node A
+[Node B]
+	 Current DV = {'A': 10, 'B': 0, 'C': inf, 'D': inf, 'E': inf}
+	 Sending DV to node A
+	 Updated DV = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+[Node C]
+	 Current DV = {'A': 10, 'B': inf, 'C': 0, 'D': inf, 'E': inf}
+	 Sending DV to node A
+	 Updated DV = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+[Node D]
+	 Current DV = {'A': 10, 'B': inf, 'C': inf, 'D': 0, 'E': inf}
+	 Sending DV to node A
+	 Updated DV = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+[Node E]
+	 Current DV = {'A': 10, 'B': inf, 'C': inf, 'D': inf, 'E': 0}
+	 Sending DV to node A
+	 Updated DV = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+
+-------- Round 1 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 10, 'C': 10, 'D': 10, 'E': 10}
+	 Sending DV to node B
+	 Sending DV to node C
+	 Sending DV to node D
+	 Sending DV to node E
+	 No change in DV at node A
+[Node B]
+	 Current DV = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+	 Sending DV to node A
+	 No change in DV at node B
+[Node C]
+	 Current DV = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+	 Sending DV to node A
+	 No change in DV at node C
+[Node D]
+	 Current DV = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+	 Sending DV to node A
+	 No change in DV at node D
+[Node E]
+	 Current DV = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+	 Sending DV to node A
+	 No change in DV at node E
+
+-------- Round 2 --------
+[Node A]
+	 Current DV = {'A': 0, 'B': 10, 'C': 10, 'D': 10, 'E': 10}
+	 Sending DV to node B
+	 Sending DV to node C
+	 Sending DV to node D
+	 Sending DV to node E
+	 No change in DV at node A
+[Node B]
+	 Current DV = {'A': 10, 'B': 0, 'C': 20, 'D': 20, 'E': 20}
+	 Sending DV to node A
+	 No change in DV at node B
+[Node C]
+	 Current DV = {'A': 10, 'B': 20, 'C': 0, 'D': 20, 'E': 20}
+	 No change in DV at node C
+[Node D]
+	 Current DV = {'A': 10, 'B': 20, 'C': 20, 'D': 0, 'E': 20}
+	 No change in DV at node D
+[Node E]
+	 Current DV = {'A': 10, 'B': 20, 'C': 20, 'D': 20, 'E': 0}
+	 No change in DV at node E
+
+Routing algorithm converged.
+Number of rounds till convergens = 3
+
+Final output:
+Node A DV = [('A', 0), ('B', 10), ('C', 10), ('D', 10), ('E', 10)]
+Node B DV = [('A', 10), ('B', 0), ('C', 20), ('D', 20), ('E', 20)]
+Node C DV = [('A', 10), ('B', 20), ('C', 0), ('D', 20), ('E', 20)]
+Node D DV = [('A', 10), ('B', 20), ('C', 20), ('D', 0), ('E', 20)]
+Node E DV = [('A', 10), ('B', 20), ('C', 20), ('D', 20), ('E', 0)]
+
+Final Distance Vector Table
+	A	B	C	D	E
+----------------------------------------
+A	0	10	10	10	10
+B	10	0	20	20	20
+C	10	20	0	20	20
+D	10	20	20	0	20
+E	10	20	20	20	0
+----------------------------------------
