@@ -1,8 +1,7 @@
 '''
-GMU - CS 555 - Project 2 - Distance Vector Routing
+Distance Vector Routing
 
-@author: Ying Meng (G01409388)
-@email: ymeng2@gmu.edu
+@author: MENG
 '''
 import argparse
 import socket
